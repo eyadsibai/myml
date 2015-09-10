@@ -1,0 +1,3 @@
+[submodule "myml/rep"]
+	path = myml/rep
+	url = git@github.com:yandex/rep.git

@@ -1,6 +1,5 @@
 
-from sklearn import ensemble
-from sklearn import linear_model
+from sklearn import ensemble, linear_model
 
 SklearnRandomForestClassifier = ensemble.RandomForestClassifier
 SklearnRandomForestRegressor = ensemble.RandomForestRegressor
