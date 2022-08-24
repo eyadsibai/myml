@@ -1,0 +1,14 @@
+{
+  "_output_dir": "/home/eyad/workspace",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Eyad Sibai",
+  "copyright_year": "2022",
+  "development_status": "Development Status :: 3 - Alpha",
+  "email": "eyad.alsibai@gmail.com",
+  "friendly_name": "MyML",
+  "github_user": "eyadsibai",
+  "license": "GPL-3.0",
+  "package_name": "myml",
+  "project_name": "myml",
+  "version": "0.0.1"
+}
