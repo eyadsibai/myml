@@ -13,21 +13,14 @@
 
           devShell = pkgs.mkShell {
             buildInputs = with pkgs; [
-              python3Packages.poetry
+              nixpkgs-fmt
+              poetry
             ];
-          };
-
-          defaultPackage = with pkgs.poetry2nix; mkPoetryApplication {
-            projectDir = ./.;
-            preferWheels = true;
-          };
-
-          defaultApp = utils.lib.mkApp {
-            drv = self.defaultPackage."${system}";
           };
 
         };
     in
     with utils.lib; eachSystem defaultSystems out;
+
 
 }
